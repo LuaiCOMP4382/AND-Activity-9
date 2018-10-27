@@ -1,0 +1,22 @@
+<!-- TODO (4): Use widget's margin from dimens.xml to set the padding of the root layout -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09C"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_user1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#09C"
+        android:text="User 1"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- TODO (5): Create two more text views with suitable ids and same style. Why not create a style that has the same properties of the above text view and reuse it for the 3 text views? -->
+
+</LinearLayout>

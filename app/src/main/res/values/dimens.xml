@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TODO (3): In API levels 13 and down, there is no margin at all, so we manually set the margin to 8dp. However, in API levels 14 and up, the margin is automatically set to 8dp, so if we set margin to 8dp, it will actually be 16 dp. Create another variant of dimens.xml for v14 and set the same value to 0dp -->
+    <dimen name="widget_margin">8dp</dimen>
+
+</resources>
